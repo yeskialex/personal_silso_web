@@ -9,10 +9,10 @@ const Footer = () => {
             <img src="/black_real_logo.svg" alt="SILSO" className="footer-logo" />
             <p>실패에서 성공으로 가는 여정을 함께하는 커뮤니티</p>
             <div className="footer-social">
-              <a href="#" aria-label="Facebook">📘</a>
-              <a href="#" aria-label="Twitter">🐦</a>
-              <a href="#" aria-label="LinkedIn">💼</a>
-              <a href="#" aria-label="Instagram">📷</a>
+              <a href="https://facebook.com/silso" aria-label="Facebook">📘</a>
+              <a href="https://twitter.com/silso" aria-label="Twitter">🐦</a>
+              <a href="https://linkedin.com/company/silso" aria-label="LinkedIn">💼</a>
+              <a href="https://instagram.com/silso" aria-label="Instagram">📷</a>
             </div>
           </div>
 
@@ -30,19 +30,19 @@ const Footer = () => {
             <h4>회사</h4>
             <ul>
               <li><a href="#about">소개</a></li>
-              <li><a href="#">팀</a></li>
-              <li><a href="#">채용</a></li>
-              <li><a href="#">블로그</a></li>
+              <li><a href="/team">팀</a></li>
+              <li><a href="/careers">채용</a></li>
+              <li><a href="/blog">블로그</a></li>
             </ul>
           </div>
 
           <div className="footer-section">
             <h4>지원</h4>
             <ul>
-              <li><a href="#">도움말</a></li>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">연락처</a></li>
-              <li><a href="#">피드백</a></li>
+              <li><a href="/help">도움말</a></li>
+              <li><a href="/faq">FAQ</a></li>
+              <li><a href="#contact">연락처</a></li>
+              <li><a href="/feedback">피드백</a></li>
             </ul>
           </div>
 
@@ -60,9 +60,9 @@ const Footer = () => {
           <div className="footer-legal">
             <p>&copy; 2024 SILSO. All rights reserved.</p>
             <div className="legal-links">
-              <a href="#">개인정보처리방침</a>
-              <a href="#">이용약관</a>
-              <a href="#">쿠키정책</a>
+              <a href="/privacy">개인정보처리방침</a>
+              <a href="/terms">이용약관</a>
+              <a href="/cookies">쿠키정책</a>
             </div>
           </div>
         </div>
